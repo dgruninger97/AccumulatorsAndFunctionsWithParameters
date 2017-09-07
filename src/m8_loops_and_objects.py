@@ -235,6 +235,7 @@ def draw_cosines_and_sines():
                ( 200 + (80 * cos(100)), 200 + (80 * sin(100) )
     -- Waits for the user to press the mouse, then closes the window.
     """
+
     # ------------------------------------------------------------------
     # DONE: 9. Implement this function, per its doc-string above.
     # Put a statement in  main  to test this function.
