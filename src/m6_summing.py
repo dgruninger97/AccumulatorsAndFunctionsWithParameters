@@ -120,10 +120,12 @@ def sum_square_roots(n):
     #   No fair running the code of  sum_square_roots  to GENERATE
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
+    # in the for loop, (upper, lower, incrament)
+    # if there is just one number, thats the number of times the loop runs
+    #
     total = 0
     for k in range(2, (2*n)+1, 2):
         total = total + math.sqrt(k)
-        print (k)
     return total
 
 # ----------------------------------------------------------------------
