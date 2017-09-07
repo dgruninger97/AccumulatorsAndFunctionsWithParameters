@@ -56,6 +56,7 @@ def sum_powers(n, p):
       -- sum_powers(5, -0.3) returns about 3.80826
       -- sum_powers(100, 0.1) returns about 144.45655
     """
+    
     for k in range(1,n+1,1):
         add = 0
         add = (add + (k**p))
